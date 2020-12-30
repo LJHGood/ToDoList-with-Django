@@ -11,3 +11,7 @@ table 정보 확인 : PRAGMA table_info(테이블명);
 - pk는 primary key, 0일경우 아니고, 1일경우 맞음
 
 table 데이터 값 확인 : select 필드 from 테이블명;
+
+---
+
+from method가 POST일 경우 {% csrf_token %} 입력 해준다. 보안상 이유 때문.
